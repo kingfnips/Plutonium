@@ -1,0 +1,21 @@
+{
+    "name": "kingfnips/plutonium",
+    "description": "All the plutonium are belong to us",
+    "license": "MIT",
+    "keywords": ["plutonium"],
+    "authors": [
+        {
+            "name": "King Flippy Nips",
+            "email": "kingfnips@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kingfnips\\Plutonium\\": "src"
+        }
+    }
+}
