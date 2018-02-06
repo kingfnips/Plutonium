@@ -10,12 +10,21 @@ All the plutonium are belong to us. Pluto is a planet.
 $ composer require kingfnips/Plutonium
 ```
 
+composer.json
 ```json
 {
     "require": {
         "kingfnips/Plutonium": "0.0.*"
     }
 }
+```
+
+```
+$ composer install
+```
+
+```
+$ composer dump-autoload
 ```
 
 ```php
